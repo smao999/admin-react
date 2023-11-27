@@ -1,5 +1,18 @@
+import {
+	createBrowserRouter,
+	RouteObject,
+	RouterProvider,
+} from 'react-router-dom';
+import routes from './routers/index.tsx';
+
 function App() {
-	return <>app</>;
+	const route = createBrowserRouter(routes as RouteObject[]);
+
+	return (
+		<>
+			<RouterProvider router={route} />
+		</>
+	);
 }
 
 export default App;

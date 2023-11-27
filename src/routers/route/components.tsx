@@ -30,7 +30,7 @@ const components: AppRouteObject = {
 	children: [
 		{
 			index: true,
-			element: <Navigate to='icon' replace />,
+			element: <Navigate to='animate' replace />,
 		},
 		{
 			path: 'animate',

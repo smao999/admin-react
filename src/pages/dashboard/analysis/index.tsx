@@ -3,7 +3,7 @@ import { FC } from 'react';
 export interface IAnalysis {}
 
 const Analysis: FC<IAnalysis> = () => {
-	return <></>;
+	return <>2</>;
 };
 
 export default Analysis;

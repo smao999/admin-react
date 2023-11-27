@@ -3,7 +3,7 @@ import { FC } from 'react';
 export interface IWorkbench {}
 
 const Workbench: FC<IWorkbench> = () => {
-	return <></>;
+	return <>1</>;
 };
 
 export default Workbench;
