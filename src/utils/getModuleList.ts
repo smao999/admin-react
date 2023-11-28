@@ -11,7 +11,6 @@ export const getModuleList = () => {
 			res.push((val as any).default);
 		}
 	});
-	console.log('------>', res);
 	return res;
 };
 
